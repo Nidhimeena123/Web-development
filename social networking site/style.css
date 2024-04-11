@@ -1,0 +1,287 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+}
+
+nav{
+    background-color: #1876f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li img{
+    width: 25px;
+    padding: 1px 20px;
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right .search-bar {
+    display: flex;
+    align-items: center;
+    background: #efefef;
+    width: 290px;
+    border-radius:20px ;
+    padding: 0 15px;
+}
+
+.nav-right .search-bar input{
+    width: 100%;
+    background: transparent;
+    padding:7px 10px  ;
+    outline: none;
+    border: none;
+}
+.search-bar img{
+    width: 18px;
+}
+
+.nav-profile img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    border-radius: 50%;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.online-symbol{
+    position: relative;
+}
+
+.online-symbol::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #efefef;
+    background: #41b741;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container{
+    padding:12px 4%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.container-left{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start; 
+}
+.container-right{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+}
+.main-content{
+    flex-basis: 47%;
+}
+
+/* --------------LEFT------------------------ */
+
+.img-links a{
+    display: flex;
+    margin: 0 0 25px 12px;
+    text-decoration: none;
+    align-items: center;
+    color: gray;
+    font-size: 15px;
+}
+
+.img-links a:last-child{
+    color: #1876f2;
+}
+
+.img-links a img{
+    width: 23px;
+    margin-right: 15px;
+}
+
+.img-links{
+    border-bottom: 1px solid #ccc;
+}
+
+.shortcut{
+    padding: 12px;
+}
+
+.shortcut p{
+    padding: 10px 0;    
+    font-size: 15px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.shortcut  a{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.shortcut img {
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* ----------------MIDDLE--------------------------- */
+
+.stories{
+    display: flex;
+    align-items:first baseline;
+    justify-content:start;
+}
+
+.story-img1 img{
+    width: 100%;
+}
+
+/* ----------------RIGHT--------------------------- */
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.title  h4{
+    font-weight: 500;
+    font-size: 15px;
+    color:#626262;
+}
+
+.title  a{
+      text-decoration: none;
+      font-size: 12px;
+}
+
+.social-media , .mobile-marketing{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.event-date{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    height: 55px;
+    width: 55px;
+    margin-right: 15px;
+    padding-top: 8px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.event-date h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.event-date p{
+    font-size: 10px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    width: 100%;
+    background-color: #1876f2;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-name p{
+     font-size: 10px;
+}
+
+.event-name a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.title-img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.online-members{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.online-members img{
+    width: 35px;
+    border-radius: 50px;
+    margin-right:12px;
+    position: relative;
+}
+
+.online-members p{
+    margin: 15px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.online-members .online-symbol::after{
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 12px;
+}
+
+
+
+

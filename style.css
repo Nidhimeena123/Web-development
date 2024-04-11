@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width:100vw ;
+    height: 100vh;
+    background-image:  url('./img/laura-lefurgey-smith-EPmvy-Ql4U0-unsplash.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.logo{
+    align-items: center;
+    color:white;
+    font-size: 28px;
+    font-weight: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a{
+    transition: all .2s ease;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-links li{
+     margin: 0 30px;
+     font-size: 20px;
+}
+
+.btn{
+    padding: 8px 15px;
+    background: #a22bad;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.active a{
+    color : #a22bad;
+}
+
+.nav-links a:hover{
+    color: #a22bad;
+}
+
+.header-content{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    color: whitesmoke;
+   
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #a22bad;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+/* EVENTS */
+section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #80677a;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.row .col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row .col img{
+    width: 80%;
+}
+
+ .events .row{
+    margin-top: 50px;
+} 
+
+.col h4{
+    margin: 20px auto;
+    font-size: 20px;
+    color: #80677a;
+}
+.col p{
+   color: #7c797c;
+   padding: 0px 49px;
+}
+
+.events .btn{
+    margin-top: 30px;
+}
+
+/* EXPLORE */
+
+.explore{
+    height: 90vh;
+    width: 100%;
+    background-image: url('./img/img6.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+     font-size: 7vmin;
+     margin-top: 60px;
+
+}
+
+.explore-content p{
+    padding: 0px 96px;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+   
+}
+
+.explore-content .btn{
+    margin-top: 40px;
+    margin-right: 370px;
+}
+
+/* TOURS AND DESTINATION */
+
+
+.content-col{
+    width: 50%;
+    margin: 20px;
+    margin-bottom: 30px
+}
+.content-col h1{
+    margin: 10px;
+    font-size: 5vmin;
+    color: #80677a;
+}
+
+.content-col p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    color: #7c797c;
+}
+
+.content-col .btn{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content-col .line{
+    margin-left: 12px;
+}
+
+.col{
+    display: inline-block;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.image-gallery img{
+    max-width: 300px;
+    /* margin: 10px; */
+}
+
+

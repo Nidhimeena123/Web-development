@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     position: absolute;
+     width: 100%;
+     color: whitesmoke;
+     margin-top: 10px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 8%;
+}
+
+.nav-links {
+    display: flex;
+    
+}
+
+.nav-links a{
+    font-size: larger;
+    padding: 8px 22px;
+    color: rgb(225, 232, 235);
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+
+.nav-links a:hover{
+    background-color: rgb(175, 197, 213);
+    color: #466074;
+    box-shadow: 5px 10px 30px rgb(85, 85, 85 / 20%);
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background:url('./img2/background.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke; 
+    padding-right: 27%;
+}
+
+.header-content h1{
+    font-size: 12vmin;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-content p{
+     padding: 12px 0px;
+     margin-bottom: 20px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-content .btn{
+    display: inline-block;
+    font-size: 15px;
+    background-color: rgb(175, 197, 213);
+    padding: 10px 27px;
+    border-radius: 8px;
+    transition: all .40s ;
+}
+
+.header-content .btn:hover{
+    background-color: rgb(199, 215, 221);
+    transform: scale(1.1);
+}
+
+
+.services{
+    width: 100%;
+    height: 100%;
+}
+
+.services-heading{
+    margin: 50px 20%;
+    font-size: 6vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #616364;
+}
+
+.services-img{
+    margin: 40px 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.container-img img{
+    height: 65px;
+    background: white;
+    box-shadow: 2px 2px 9px #b4b6b7;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container-img{
+    background: rgb(255, 255, 255);
+    border: 1px solid #f0eded;
+    padding: 20px 30px;
+    transition: all .40s;
+}
+
+.container-img h4{
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+.container-img h6{
+    margin-left: 15px;
+    color: #616364;
+    
+}
+
+.container-img:hover{
+    box-shadow: 2px 2px 9px #e1e2e3;
+     transform: scale(1.1);
+}
+
+
+.packages-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7% ;
+    font-size: 5vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #616364;
+}
+
+.packages{
+    padding: 20px 17%;
+}
+
+.packages-content{
+    display: flex;
+    align-items: center;
+}
+
+.packages-images h5{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3b3d3d;
+
+}
+.packages-images h6{
+    margin-left: 20px;
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #616364;
+    padding-top: 5px;
+}
+
+.packages-images img{
+    margin: 12px;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    will-change: filter;
+    cursor: pointer;
+}
+
+
+.packages-images img:hover{
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.05);
+}
+
+.destination-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0px ;
+    font-size: 5vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #616364;
+}
+.destination-content{
+     margin-left: 250px;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+
+}
+
+.destination-images{
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.destination-images img{
+    border-radius: 15px;
+    height: 330px;
+    width: 230px;
+    margin: 0px 12px;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: all .3s cubic-bezier(.495,.05,.55,.95);
+    will-change: filter ;
+    margin-bottom: 20px;
+}
+
+.destination-images h5{
+    position: absolute;
+    bottom: 55px;
+    left: 25px;
+    color: #fdfefe;
+} 
+
+.destination-images h6{
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+    color: #dadddd;
+    letter-spacing: 2px;
+} 
+
+.destination-images img:hover{
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.04);
+}
+
+.newsletter {
+    margin: 6% 22%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 3rem;
+}
+
+.newsletter-heading h1{
+     font-size: 30px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-bottom: 5px;
+     color: #616364;
+    }
+
+    .newsletter-heading p{
+        font-size: 18px;
+        color: #b4b6b7;
+        line-height: 20px;
+    }
+
+.newsletter form{
+    max-width: 100%;
+    width: 300px;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 150px 14px 30px;
+    box-shadow:  2px 2px 9px #b4b6b7;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.newsletter form input:last-child{
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    background: #0f6c9a;
+    color:#e0eaea;
+     top: 4px;
+     right: 4px;
+     cursor: pointer;
+}

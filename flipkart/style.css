@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+/* .container {
+    padding: 0px 8px;
+} */
+
+
+/* NAV BAR */
+nav {
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0px 15%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+
+}
+.search .search-container {
+    width: 350px;
+    height: 36px;
+    /* box-shadow: 12px 2px 4px 12px black; */
+}
+
+.search-box{
+    position: absolute;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 10px 0px 9px 10px;
+    width: 340px;
+    background-color: #f1f3f6;
+        box-shadow: 0px 3px 4px 0px rgba(0,0,0,.23);
+
+}
+
+.search-btn{
+    position: relative;
+    left: 310px;
+    top: 7px;
+    border: none;
+    background-color: #f1f3f6;
+}
+
+.login-btn{
+    width: 140px;
+    display:flex ;
+    justify-content: center;
+}
+
+.login-btn button{
+    color: #2874f0;
+    background-color: #f1f3f6;
+    font-size: 14px;
+    font-weight:500;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    padding: 7px 40px;  
+    border-radius: 2px;
+
+}
+
+.become-seller{
+   color:#f1f3f6;
+   font-weight: bold;
+   font-family: Roboto,Arial,sans-serif;
+   margin-left: 25px ;
+}
+.more{
+   color:#f1f3f6;
+   font-weight: bold;
+   font-family: Roboto,Arial,sans-serif;
+   margin-left:30px ;
+}
+
+.zZ3yfL{
+    transform: rotate(270deg);
+}
+
+.cart{
+   color:#f1f3f6;
+   font-weight: bold;
+   font-family: Roboto,Arial,sans-serif;
+    margin-left: 34px ;
+}
+    
+/* SECTION-1 */
+
+.products{
+   height: 120px;
+   width: 100%;
+   display: flex;
+   font-family: Roboto,Arial,sans-serif;
+   letter-spacing: 0;
+   background-color:white;
+   box-shadow: 0px 1px 1px 0px rgba(0,0,0,.23);
+}
+
+.product-count{
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img{
+    display: flex;
+    justify-content: center;
+    width: 77px;
+    height: 77px;
+    margin: 5px 30px 0px;
+}
+
+.name{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   padding: 0px 0px 2px 0px ;
+}
+
+.name a{
+    color: black;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Section-2 */
+  
+.slider{
+    height: 280px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
+    margin-top: 16px ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+/* SECTION-3 */
+.ads{
+    height: 122px;
+    margin: 8px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    /* box-shadow: 0px 1px 1px 0px rgba(0,0,0,.23); */
+}
+
+/* SECTION-4 */
+
+.sider-content{
+    margin-top: 8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sider-offers{
+    width: 500px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sider-offers-view{
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sider-offers-view button{
+    height: 40px;
+    background-color: #2874f0;
+    padding: 10px 20px;
+    margin-top: 12px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.content-items{
+    height: 360px;
+    width: calc(100%-230px);
+    display: flex;
+    overflow-x: auto;
+}
+
+.content-images{
+   width: 232px;
+   height: 100%;
+   padding:0px 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 12px;
+}
+
+.content-images img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.content-images:hover{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,.23);
+    transition: all ease;
+}
+
+ .content-image-name{
+   margin-top: 16px;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.content-image-price{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.content-image-explore{
+    opacity: 0.6;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 300;
+ }
+
+ /* SECTION-5 */
+ .section-banner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 8px;
+ }
+ .section-banner img{
+    width: 33%;
+ }
