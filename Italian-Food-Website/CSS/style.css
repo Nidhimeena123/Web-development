@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER START -------------------- */
+
+.header {
+    height: 720px;
+    background-image: url("../images/bg-img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/* --logo and delivery-- */
+.logo-delivery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 45px;
+    padding-top: 20px;
+}
+
+.logo-img img {
+    height: 50px;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+}
+
+.delivery-no {
+    margin: 10px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    text-align: right;
+}
+
+.phone-img img {
+    height: 40px;
+}
+
+/* NAV-LINKS */
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    /* margin-top: 15px; */
+}
+
+.nav-links ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+}
+
+/* MAIN HEADER CONTENT */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header-content {
+    margin-left: 100px;
+    /* margin-top: 60px; */
+}
+
+.header-content h2 {
+    font-size: 50px;
+    font-family: "Cookie", cursive;
+    letter-spacing: 3px;
+}
+
+.header-content h1 {
+    font-size: 100px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    color: rgb(36, 35, 35);
+}
+
+.header-content h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0 20px 0;
+}
+
+.header-content p {
+    opacity: 0.200;
+    height: 2px;
+    background-color: #000000;
+}
+
+.happyhours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+
+}
+
+.happyhours h5 {
+    font-size: 20px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    color: #4b4a4a;
+    margin-right: 10px;
+}
+
+.number h1 {
+    font-size: 50px;
+    color: #4b4a4a;
+}
+
+.header-content div h4 {
+    width: 40%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.header-img img {
+    height: 480px;
+    margin: 70px 150px 0 0;
+    filter: drop-shadow(5.5px 9.526px 125px rgba(12, 13, 12, 0.31));
+}
+
+/* EXTRA IMAGES */
+.img-1 img {
+    height: 250px;
+    position: absolute;
+    top: 600px;
+    filter: drop-shadow(-42.21px -8.205px 73.5px rgba(12, 13, 12, 0.21));
+}
+
+.img-2 img {
+    height: 70px;
+    position: absolute;
+    top: 240px;
+    left: 90px;
+}
+
+.img-3 img {
+    height: 70px;
+    position: absolute;
+    top: 230px;
+    left: 540px;
+}
+
+.img-4 img {
+    height: 70px;
+    position: absolute;
+    top: 620px;
+    left: 500px;
+}
+
+.img-5 img {
+    height: 70px;
+    position: absolute;
+    top: 580px;
+    left: 1170px;
+}
+
+/* ---------- HEADER END  ----------------------> */
+
+/* ----SECTION -- CHOOSE AND ENJOY-- START ------------*/
+
+.choose-enjoy {
+    height: 600px;
+}
+
+.choose-enjoy-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 35, 35);
+}
+
+.choose-enjoy-para {
+    margin: 0 150px;
+    text-align: center;
+    line-height: 20px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Choose-bg-2.png");
+    height: 100px;
+    width: 100%;
+    margin-top: 100px ;
+}
+.order-img{
+    padding: 0 65px;
+}
+.order-img img{
+    height: 280px;
+    margin-top: 150px;
+    filter: drop-shadow(14.5px 25.115px 19px rgba(12,13,12,0.36));
+}
+
+.ordername{
+    text-align: center;
+    padding: 25px 0;
+
+} 
+.ordername h3{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ordername p{
+    padding: 10px 0;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.ordername button{
+    padding: 8px 20px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffe001;
+    border: none;
+}
+/* ----SECTION -- CHOOSE AND ENJOY-- END ------------*/
+
+/* SECTION -- DISCOVER UPCOMNG EVENTS-- START  */
+.events {
+    height: 600px;
+}
+
+.events-heading {
+    text-align: center;
+    padding: 60px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: rgb(36, 35, 35);
+}
+
+.events-para {
+    margin: 0 150px;
+    text-align: center;
+    line-height: 20px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.events-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-img img{
+    padding: 20px 0;
+    width: 100%;
+}
+.events-img-2{
+    filter: drop-shadow(9.5px 16.454px 27px rgba(12,13,12,0.67));
+}
+.events-img-dot{
+    text-align: center;
+}
+.events-img-dot img{
+    height: 10px;
+}
+/* SECTION -- DISCOVER UPCOMNG EVENTS-- END  */
+
