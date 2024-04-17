@@ -220,7 +220,6 @@
     margin-top: 150px;
     filter: drop-shadow(14.5px 25.115px 19px rgba(12,13,12,0.36));
 }
-
 .ordername{
     text-align: center;
     padding: 25px 0;
@@ -346,7 +345,6 @@
     font-size: 30px;
     color: white;
     padding: 0px 20px;
-
 }
 .grid-2 h5{
     position: absolute;
@@ -369,9 +367,6 @@
 /* SECTION -- TRY IT TODAY-- END */
 
 /* SECTION -- RESERVATION-- START    */
-
-
-
 .reser-heading {
     text-align: center;
     padding: 60px 0 35px 0;
@@ -411,7 +406,6 @@
 
 /* FOOTER-- START */
 .footer{
-    height: 400px;
     background-image: url("../images/Bg-img-3.png");
     background-size: cover;
     background-position: center;
@@ -735,9 +729,6 @@
         margin:0 5px;
         letter-spacing: 0;
     } 
-    .choose-enjoy-para{
-        margin: 0;
-    }
     .happyhours{
         padding: 0;
     }
@@ -745,19 +736,123 @@
         height: 150px;
         top: 630px;
     }
-
-    /* .order {
-        flex-direction: column;
+    .img-2 img {
+        height: 50px;
+        top: 200px;
+        left: 20px;
+    }
+    .img-4 img {
+        height: 70px;
+        top: 630px;
+        left: 320px;
+    }
+    .choose-enjoy {
+        height: 1000px;
+    }
+    .order {
         background-image: none;
+        flex-direction: column;
+        margin-top: 360px;
+    }
+    .choose-enjoy-para{
+        margin: 0;
+        font-size: 11px;
     }
     .order-img{
-        padding: 0 0;
+        padding: 0;
     }
+    .ordername{
+        padding: 0 0;
+    } 
     .order-img img{
         height: 150px;
-        margin-top: 0px;
-    } */
+        margin: 20px 0 15px 0;
+        margin-left: 60px;
+    }
 
+    .events-para {
+        margin: 0 15px;
+        font-size: 11px;
+    }
+   .events-img{
+    display: block;
+    margin: 0 50px;
+   }
+    .try{
+       display: block;
+       
+    }
+    .grid-1 img{
+        height: 250px;
+     }
+     .grid-2{
+        display: block;
+     }
+    .grid-2 img{
+        display: block;
+        height: 115px;
+        margin-top: 12px;
+    }
 
-    
+    .grid-2 h6{
+        top: 55%;
+        font-size: 20px;
+    }
+    .grid-2 h4{
+        position: absolute;
+        color: white;
+        top: 59%;
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+    .grid-2 h2{
+        position: absolute;
+        top: 65%;
+        font-size: 30px;
+        color: white;
+        padding: 0px 20px;
+    }
+    .grid-2 h5{
+        top: 420px;
+        font-size: 20px;
+    }
+    .grid-2 h3{
+        top: 445px;
+        font-size: 30px;
+    }
+
+    .table{
+        display: block;
+        margin: 0 30px;
+    }
+    .table-find input {
+        padding: 15px 74px;
+        text-align: center;
+    }
+    .footer{
+        padding: 20px 12px;
+        height: 720px;
+    }
+    .logo img{
+        height: 40px ;
+    }
+    .des-loc{
+        flex-direction: column;
+    }
+    .descrip{
+        font-size: 12px;
+    }
+    .location{
+        width: 100%;
+        margin: 15px 0 0 25px;
+    }
+    .copyright{ 
+        padding: 20px 15px;
+        font-size: 10px;
+    }
+    .social-links i{
+        font-size: 15px;
+    }
+
+   
 } 
